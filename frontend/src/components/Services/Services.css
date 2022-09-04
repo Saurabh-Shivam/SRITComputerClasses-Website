@@ -1,0 +1,84 @@
+.services {
+    padding: 0 3rem 0 3rem;
+    display: flex;
+    height: 90vh;
+    margin-bottom: 8rem;
+    margin-top: 5rem;
+    margin-bottom: 13rem;
+}
+
+.s-left {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+/* for the first child, i.e. span -> heading 1 */
+.s-left>:nth-child(1) {
+    color: var(--black);
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+/* for the second child, i.e. span -> heading 2 */
+.s-left>:nth-child(2) {
+    color: var(--orange);
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+/* for the third child, i.e. span -> sentence */
+.s-left>:nth-child(3) {
+    color: var(--gray);
+    font-size: 15px;
+    margin-top: 1rem;
+    width: 26rem;
+}
+
+.s-button {
+    width: 8rem;
+    height: 2rem;
+    margin-top: 1rem;
+}
+
+.s-right {
+    position: relative;
+}
+
+/* Targeting everthing inside the s-right class */
+.s-right>* {
+    position: absolute;
+}
+
+
+/* blur */
+.s-blur1 {
+    left: -18rem;
+    top: 13rem;
+}
+
+.s-blur2 {
+    left: 14rem;
+    top: 8rem;
+}
+
+/*  for responsiveness */
+@media screen and (max-width: 840px) {
+    .services {
+        margin-top: 0;
+        flex-direction: column;
+        gap: 5rem;
+        height: 66rem;
+        padding: 0;
+    }
+
+    .s-right {
+        display: flex;
+        flex-direction: column;
+        gap: 17rem;
+    }
+
+    .s-right>* {
+        position: static;
+    }
+}

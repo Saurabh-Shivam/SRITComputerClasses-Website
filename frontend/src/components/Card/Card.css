@@ -1,0 +1,56 @@
+.card {
+    width: 12rem;
+    max-height: fit-content;
+    /* position -> absolute and relative both will make appear everything inside the div means a div which have a position relative and 
+    then it has a child which have position absolute, the child will make it's style relative to the div which have the position relative */
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.26);
+    border: 7px solid var(--orangeCard);
+    box-shadow: var(--boxShadow);
+    border-radius: 20px;
+    padding: 0px 26px 2rem 26px;
+}
+
+/* First child of the card class i.e. img */
+.card>:nth-child(1) {
+    transform: scale(0.6);
+    margin-bottom: -2rem;
+}
+
+/* Third child of the card class i.e. span */
+.card>:nth-child(3) {
+    color: var(--gray);
+    font-size: 16px;
+    /* color: black; */
+}
+
+/* Or we can write like this that we are targeting inside the div with className="card", the second class of type span
+.card span:nth-of-type(2) {
+    color: var(--gray);
+    font-size: 16px;
+} */
+
+.c-button {
+    background: #FFFFFF;
+    box-shadow: 0px 19px 60px rgba(0, 0, 0, 0.08, green, blue, alpha);
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    color: #5290FD;
+}
+
+.c-button:hover {
+    cursor: pointer;
+}
+
+/* for responsiveness */
+@media screen and (max-width: 840px) {
+    .card {
+        width: auto;
+    }
+}
