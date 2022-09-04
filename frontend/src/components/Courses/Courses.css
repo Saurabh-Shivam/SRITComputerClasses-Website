@@ -1,0 +1,26 @@
+.courses {
+    /* flex: 9; */
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    margin: 20px;
+    /* "justify-content provides a space between items */
+    /* justify-content: space-around; */
+    /* justify-content: safe;
+    gap: 2rem; */
+
+    /* This will help to divide 3 cards in a row with distance of 1.6rem from each other */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1.6rem;
+}
+
+/* for responsiveness */
+@media screen and (max-width: 840px) {
+    .courses {
+        display: flex;
+        flex-direction: column;
+        /* width: auto;
+        height: auto; */
+        gap: 2px;
+    }
+}
