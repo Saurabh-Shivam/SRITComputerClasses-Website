@@ -1,0 +1,142 @@
+.footer {
+    display: flex;
+    align-items: center;
+    margin: -0.5rem -3.5rem;
+    /* padding-top: -5rem; */
+    margin-top: 7rem;
+    height: 12rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+
+.f-left {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-top: -2rem;
+    padding-left: 3.5rem;
+}
+
+
+.f-left>:nth-of-type(1) {
+    color: var(--black);
+    font-size: 15px;
+    margin-top: 1rem;
+    width: 26rem;
+    width: 22rem;
+}
+
+
+.f-mid {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-top: -1rem;
+    padding-left: 7.5rem;
+
+}
+
+.f-mid>span {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-bottom: 0.3rem;
+}
+
+
+.f-right {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding-left: 3rem;
+    margin-top: -2rem;
+    display: grid;
+    text-align: center;
+
+
+}
+
+.f-right>span {
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+/* .footer {
+    display: flex;
+    align-items: center;
+    margin: -0.5rem -3.5rem;
+    position: relative;
+    margin-top: 4rem;
+
+
+}
+
+.f-content {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 4rem;
+    gap: 4rem;
+    color: white;
+}
+
+.f-icons {
+    display: flex;
+    gap: 2rem;
+} */
+
+/* for responsiveness */
+@media screen and (max-width: 840px) {
+    /* .footer {
+        display: none;
+    } */
+
+    .f-left {
+        /* margin-left: -3rem; */
+        display: none;
+    }
+
+    .f-mid {
+        /* display: flex; */
+        position: relative;
+        align-content: space-around;
+        /* margin-top: -1rem; */
+        margin-left: -4.5rem;
+        /* margin-left: -17rem; */
+
+    }
+
+    .f-mid>span:nth-child(1) {
+        font-size: 1.6rem;
+    }
+
+
+
+    .f-right {
+        /* display: flex; */
+        flex-direction: column;
+        position: relative;
+        margin-top: -0.9rem;
+        margin-left: 0.1rem;
+        /* margin-left: -7rem; */
+        /* align-content: space-between; */
+
+    }
+
+    .f-right>span:nth-child(1) {
+        padding-left: 10rem;
+        font-size: xx-large;
+    }
+
+    .f-social {
+        /* font-size: xx-large; */
+        width: 6rem;
+        gap: 1px;
+    }
+}
