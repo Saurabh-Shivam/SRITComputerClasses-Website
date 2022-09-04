@@ -1,0 +1,239 @@
+.reasons {
+    padding: 0 3rem 0 3rem;
+    display: flex;
+    height: 90vh;
+    margin-top: 3rem;
+}
+
+.r-left {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+/* for the first child, i.e. span-> some reasons */
+.r-left>:nth-child(1) {
+    /* color: var(--black);
+    font-size: 2.5rem;
+    font-weight: bold; */
+    font-size: 18px;
+    text-transform: uppercase;
+    color: var(--black);
+    font-weight: bold;
+    margin-bottom: 0.3rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* for the second child, i.e. span-> Why Choose Us? */
+.r-left>:nth-child(2) {
+    /* color: var(--orange);
+    font-size: 2.5rem;
+    font-weight: bold; */
+
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: orange;
+}
+
+/* for the third child, i.e. span-> points */
+/* .r-left>:nth-child(3) {
+    color: var(--gray);
+    font-size: 15px;
+    margin-top: 1rem;
+    width: 26rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+
+} */
+
+.r-points {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.r-points>div>img {
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-right: 1rem;
+}
+
+
+.r-points>div>span {
+    font-size: 17px;
+    gap: 1rem;
+    color: var(--gray);
+    margin-top: 1rem;
+    width: 26rem;
+}
+
+
+
+.r-button {
+    width: 8rem;
+    height: 2rem;
+    margin-top: 1rem;
+}
+
+.r-right {
+    position: relative;
+}
+
+.r-mainCircle {
+    left: 10rem;
+    position: relative;
+    width: 16rem;
+    height: 16rem;
+    border-radius: 100%;
+    box-shadow: var(--smboxShadow);
+    top: 2rem;
+    background: white;
+    /* darkMode */
+    z-index: 2;
+}
+
+/* Everthing inside .r-mainCircle will have positin absolute */
+/* r-right inherits r-mainCircle, so r-mainCircle position will be absolute r.r.t. r-right whose position will be relative
+similarly r-mainCircle inherits r-secCircle so r-secCircle will be absolute r.r.t. r-mainCircle whose position will be relative */
+.r-mainCircle>* {
+    position: absolute;
+}
+
+/* first child, i.e. img-> Upwork */
+.r-mainCircle> :nth-child(1) {
+    left: 6rem;
+    top: -3rem;
+}
+
+/* second child, i.e. img-> Fiver */
+.r-mainCircle> :nth-child(2) {
+    left: -3rem;
+    top: 5rem;
+}
+
+/* third child, i.e. img-> Amazon */
+.r-mainCircle> :nth-child(3) {
+    left: 6rem;
+    top: 5rem;
+}
+
+/* fourth child, i.e. img-> Shopify */
+.r-mainCircle> :nth-child(4) {
+    left: 15rem;
+    top: 5rem;
+}
+
+/* fifth child, i.e. img-> Facebook */
+.r-mainCircle> :nth-child(5) {
+    left: 6rem;
+    top: 13rem;
+
+}
+
+.r-secCircle {
+    width: 5rem;
+    height: 5rem;
+    position: absolute;
+    border-radius: 100%;
+    border: 5px solid #ebebeb;
+    /* bcz of this imgs will be at the center and also justified at the center */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: none;
+    box-shadow: var(--smboxShadow);
+    background: white;
+}
+
+/* selecting all the images inside r-secCircle class and transforming them to the 6% of their total size */
+.r-secCircle>img {
+    transform: scale(0.6);
+}
+
+.r-backCircle {
+    position: absolute;
+    height: 11rem;
+    width: 11rem;
+    border-radius: 100%;
+    /* for alwaysbehind the other(primary) circles */
+    z-index: -1;
+    /* darkMode */
+    z-index: 1;
+}
+
+.blueCircle {
+    background: #1949B8;
+    left: 18rem;
+    top: 0rem;
+}
+
+.yellowCircle {
+    background: #F5C32C;
+    left: 18rem;
+    top: 8rem;
+}
+
+/* for responsiveness */
+@media screen and (max-width: 840px) {
+    .reasons {
+        flex-direction: column;
+        height: 55rem;
+        padding: 0;
+        gap: 5rem;
+        width: 15rem;
+    }
+
+    .r-right {
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        transform: scale(0.7);
+    }
+
+    .r-mainCircle {
+        position: static;
+    }
+
+    .r-backCircle {
+        left: 6rem !important;
+    }
+
+    .r-secCircle {
+        margin-left: -0.7rem;
+    }
+}
+
+/* for responsiveness */
+@media screen and (max-width: 840px) {
+    .register {
+        flex-direction: column;
+        margin-top: 30px;
+    }
+
+    .re-left>:nth-child(1) {
+        font-size: xx-large;
+        margin-bottom: 25px;
+    }
+
+    .re-left>:nth-child(2) {
+        font-size: xx-large;
+        margin-bottom: 25px;
+    }
+
+    .re-right>form {
+        gap: 25px;
+    }
+
+    .re-right .user {
+        margin-top: 2px;
+        width: 12rem;
+        /* height: 8rem; */
+        padding: 0.5rem;
+        /* margin-bottom: -7px; */
+    }
+}
