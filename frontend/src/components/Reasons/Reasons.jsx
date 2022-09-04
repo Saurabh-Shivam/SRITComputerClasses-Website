@@ -7,6 +7,7 @@ import Upwork from "../../img/Upwork.png";
 import Facebook from "../../img/Facebook.png";
 import Skill from "../../img/skill.png";
 import Certificate from "../../img/certifi.png";
+import { Link } from "react-router-dom";
 // // for darkmode
 // import { themeContext } from "../../context/DarkMode/Context";
 // import { useContext } from "react";
@@ -49,9 +50,9 @@ const Reasons = () => {
           </div>
         </div>
 
-        <a href="/contact">
+        <Link to="contact">
           <button className="button s-button">Download</button>
-        </a>
+        </Link>
         {/* Blur effect design, className="blur" styling is done in the Intro.css file */}
         {/* <div className="blur s-blur1" style={{ background: "#ABF1FF94" }}></div> */}
       </div>

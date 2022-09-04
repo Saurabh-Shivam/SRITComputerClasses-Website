@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import "./Login.css";
 // // for darkmode
 // import { themeContext } from "../../context/DarkMode/Context";
@@ -95,9 +95,9 @@ const Login = () => {
 
           <button className="button l-button">Login</button>
 
-          <a className="regLink" href="/register">
+          <Link className="regLink" to="/register">
             New User..? Register Here
-          </a>
+          </Link>
           <div
             className="blur l-blur2"
             style={{ background: "var(--purple" }}

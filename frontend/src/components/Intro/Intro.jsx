@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./Intro.css";
 // Importing images
 import Vector1 from "../../img/Vector1.png";
@@ -36,11 +37,11 @@ const Intro = () => {
             iste!
           </span>
         </div>
-        <a href="/courses">
+        <Link to="courses">
           <button href="/courses" className="button i-button">
             Explore
           </button>
-        </a>
+        </Link>
         <div className="i-icons">
           <a href="https://www.github.com/" target="_blank" rel="noreferrer">
             <i className="i-social fa-brands fa-github"></i>
