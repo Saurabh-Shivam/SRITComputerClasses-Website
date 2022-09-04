@@ -71,7 +71,7 @@ textarea {
 @media screen and (max-width: 840px) {
     .contact {
         flex-direction: column;
-        margin-top: 20px;
+        margin-top: 5rem;
     }
 
     .c-left>:nth-child(1) {
