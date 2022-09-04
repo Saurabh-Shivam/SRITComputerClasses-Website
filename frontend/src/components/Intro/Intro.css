@@ -1,0 +1,172 @@
+.intro {
+    display: flex;
+    height: 77vh;
+    margin-top: 6rem;
+}
+
+.i-left {
+    display: flex;
+    position: relative;
+    flex: 1;
+    /* All the items on the left side will align themseleves in a column */
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.i-name {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Targeting the first child of i-name class, i.e. <span>Hy! I Am</span> */
+.i-name>:nth-child(1) {
+    color: var(--black);
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+/* Targeting the second child of i-name class */
+.i-name>:nth-child(2) {
+    color: var(--orange);
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+
+/* Targeting the third child of i-name class */
+.i-name>:nth-child(3) {
+    margin-top: 10px;
+    color: var(--gray);
+    font-weight: 100;
+    font-size: 14px;
+}
+
+.i-button {
+    width: 6rem;
+    height: 2rem;
+}
+
+.i-icons {
+    margin-top: 2rem;
+    display: flex;
+    gap: 2rem;
+}
+
+/* for all items inside i-icons class */
+.i-icons>* {
+    color: var(--orange);
+    transform: scale(2);
+}
+
+.i-icons>*:hover {
+    cursor: pointer;
+    /* color: orange; */
+}
+
+
+.i-right {
+    flex: 1;
+    position: relative;
+}
+
+/* for all items inside i-right class */
+.i-right>* {
+    position: absolute;
+    /* if anything comes out of this div, then it will overflow to the left side and will not let us see any boundary*/
+    z-index: 1;
+}
+
+/* for the first child, i.e. Vector1 */
+.i-right>:nth-child(1) {
+    transform: scale(0.69);
+    left: -14%;
+    top: -9%;
+
+}
+
+/* for the second child, i.e. Vector2 */
+.i-right>:nth-child(2) {
+    transform: scale(0.67);
+    left: -2rem;
+    top: -4.6rem;
+}
+
+/* for the third child, i.e. user */
+.i-right>:nth-child(3) {
+    transform: scale(1.4);
+    left: 28%;
+
+}
+
+/* for the fourth child, i.e. glassemojy */
+.i-right>:nth-child(4) {
+    transform: scale(0.6);
+    top: -19%;
+    left: -24%;
+    border-radius: 50%;
+    padding: 0;
+    /* ADDING ANIMATION */
+    /* to move image in the page we have made it's position relative */
+    position: relative;
+    animation-name: moveEmojiLeft;
+    animation-duration: 1.5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+
+}
+
+/* ADDING ANIMATION */
+@keyframes moveEmojiLeft {
+    from {
+        left: -38%;
+    }
+
+    to {
+        left: -22%
+    }
+}
+
+
+/* blur effect design on right side of intro section*/
+.blur {
+    position: absolute;
+    height: 14rem;
+    width: 22rem;
+    border-radius: 50%;
+    background: #edd0ff;
+    filter: blur(72px);
+    z-index: -9;
+    top: -18%;
+    left: 56%;
+}
+
+/*  for responsiveness */
+@media screen and (max-width: 840px) {
+    .intro {
+        flex-direction: column;
+        height: 64rem;
+        gap: 6.5rem;
+    }
+
+    .i-right {
+        transform: scale(0.8);
+        left: -3rem;
+    }
+
+    .i-right .blur {
+        display: none;
+    }
+
+    .floating-div:nth-of-type(1) {
+        /* display: none; */
+        top: -7rem !important;
+    }
+
+    /* .i-button {
+        margin-left: 3.3rem;
+    }
+
+    .i-icons {
+        margin-left: 3rem;
+    } */
+}
