@@ -1,0 +1,98 @@
+.contact {
+    display: flex;
+    height: 77vh;
+    margin-top: 6rem;
+    padding: 0 3rem 0 3rem;
+}
+
+/* Code copied from servies.css component of className -> s-left  */
+.c-left {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+/* for the first child, i.e. span */
+.c-left>:nth-child(1) {
+    color: var(--black);
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+/* for the second child, i.e. span */
+.c-left>:nth-child(2) {
+    color: var(--orange);
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+
+.c-right {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    flex: 1;
+}
+
+.c-right>form {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+}
+
+.c-right .user {
+    width: 20rem;
+    height: 2rem;
+    padding: 0.3rem;
+    outline: none;
+    border: 2px solid var(--orange);
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+textarea {
+    height: 4rem !important;
+}
+
+
+/* Blur */
+.c-blur1 {
+    left: -15rem;
+    top: 11rem;
+}
+
+.c-blur2 {
+    top: 1rem;
+    left: 8rem;
+}
+
+/* for responsiveness */
+@media screen and (max-width: 840px) {
+    .contact {
+        flex-direction: column;
+        margin-top: 20px;
+    }
+
+    .c-left>:nth-child(1) {
+        font-size: xx-large;
+        margin-bottom: 15px;
+    }
+
+    .c-left>:nth-child(2) {
+        font-size: xx-large;
+        margin-bottom: 20px;
+    }
+
+    .c-right>form {
+        gap: 20px;
+    }
+
+    .c-right .user {
+        margin-top: 2px;
+        width: 12rem;
+        /* height: 8rem; */
+        padding: 0.5rem;
+        /* margin-bottom: -7px; */
+    }
+}
