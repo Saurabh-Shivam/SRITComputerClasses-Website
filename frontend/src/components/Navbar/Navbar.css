@@ -1,0 +1,184 @@
+.n-wrapper {
+    height: 10vh;
+    display: flex;
+    /* bcz we need some space btwn the left and right div */
+    justify-content: space-between;
+    font-size: 25px;
+    margin-top: 1rem;
+
+}
+
+.n-left {
+    /* It will take equal width with flex:1 */
+    flex: 1;
+    align-items: center;
+    /* To make the items align at center we have made display flex */
+    display: flex;
+    gap: 2rem;
+}
+
+.n-name {
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.n-right {
+    /* It will take equal width with flex:1 */
+    /* Thus both left and right side will take equal 50%-50% of width */
+    flex: 5;
+    align-items: center;
+    /* To make the items align at center we have made display flex */
+    display: flex;
+    font-weight: 400;
+    /* position: fixed; */
+
+}
+
+.n-list {
+    flex: 10;
+}
+
+.n-list>ul {
+    display: flex;
+    gap: 2rem;
+    margin-right: 4rem;
+}
+
+.n-list {
+    text-decoration: none;
+    color: inherit;
+
+}
+
+.n-list:hover {
+    cursor: pointer;
+    color: var(--orange);
+}
+
+/* .n-list>ul>li:hover {
+    cursor: pointer;
+    color: var(--orange);
+} */
+
+.n-button {
+    flex: 2;
+    margin-left: -2.5rem;
+}
+
+/* Hiding it the normal desktop view */
+#hamburger-menu {
+    display: none;
+}
+
+/*  for responsiveness */
+@media screen and (max-width: 1090px) {
+    .n-list {
+        display: none;
+        /* position: fixed;
+        right: -3.8rem;
+        z-index: 99; */
+    }
+
+    /* 
+    .n-list>ul {
+        flex-direction: column;
+        color: white;
+        background-color: var(--orange);
+        padding: 2rem;
+    } */
+
+    .n-button {
+        display: none;
+    }
+
+    #hamburger-menu {
+        display: block;
+    }
+
+    /* .n-left {
+        margin-left: -1rem;
+        gap: 7px;
+    } */
+
+
+    .mobile-menu-list {
+        grid-column: 2/4;
+        position: relative;
+        z-index: 99;
+    }
+
+    .mobile-menu-list {
+        background-color: var(--orange);
+        height: 20rem;
+        display: grid;
+        grid-column: 2/5;
+        align-items: center;
+        padding-left: 3rem;
+        transition: all 2s linear;
+        transform-origin: top;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+            rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    }
+
+    .mobile-menu-list ul {
+        height: 20rem;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .mobile-menu-list ul li:first-child {
+        transition-delay: 0.2s;
+    }
+
+
+}
+
+
+@media screen and (max-width: 670px) {
+
+    #hamburger-menu {
+        display: block;
+        margin-left: 13rem;
+        position: fixed;
+    }
+
+
+    .mobile-menu-list {
+        grid-column: 2/4;
+        position: relative;
+        z-index: 99;
+        margin-left: 7.3rem;
+        max-inline-size: 6rem;
+        position: fixed;
+    }
+
+    .mobile-menu-list {
+        background-color: var(--orange);
+        border-radius: 5%;
+        height: 20rem;
+        display: grid;
+        grid-column: 2/5;
+        align-items: center;
+        padding-left: 3rem;
+        transition: all 2s linear;
+        transform-origin: top;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+            rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    }
+
+    .mobile-menu-list ul {
+        height: 20rem;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-left: -4.5rem;
+    }
+
+    .mobile-menu-list ul li:first-child {
+        transition-delay: 0.2s;
+    }
+
+}
