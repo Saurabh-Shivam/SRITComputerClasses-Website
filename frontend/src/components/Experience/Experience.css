@@ -1,0 +1,86 @@
+.experience {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+    height: 30vh;
+    margin-bottom: 8rem;
+    /* margin-top: 13rem; */
+}
+
+.achievement {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.circle {
+    width: 4rem;
+    height: 4rem;
+    background: white;
+    border-radius: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* 1rem = 16px */
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 1.7rem;
+}
+
+/* The ::before selector inserts something before the content of each selected element
+Use the content property to specify the content to insert. */
+.circle::before {
+    border-radius: 100%;
+    /* We are creating a gradient effect before the .circle div class so we have put the contnet value as Null */
+    content: '';
+    background-image: linear-gradient(to bottom, #87e6fb 0%, #ffc05c 100%);
+    top: -8px;
+    left: -8px;
+    bottom: -8px;
+    right: -8px;
+    position: absolute;
+    /* When elements are positioned, they can overlap other elements.
+       The z-index property specifies the stack order of an element (which element should
+       be placed in front of, or behind, the others) */
+    /* Because the image has a z-index of -1, it will be placed behind the text */
+    z-index: -1;
+    box-shadow: var(--boxShadow);
+}
+
+/* Third child of the achievement class i.e. span */
+.achievement>:nth-child(3) {
+    color: var(--orange);
+    /* font-size: 20px; */
+
+}
+
+/* Or we can write like this that we are targeting inside the div with className="achievement", the second class of type span
+.card span:nth-of-type(2) {
+    color: var(--gray);
+    font-size: 16px;
+} */
+
+/* Second child of the card class i.e. span */
+/* .achievement>:nth-child(2) {
+    font-size: 20px;
+
+} */
+
+/*  for responsiveness */
+@media screen and (max-width: 480px) {
+    .experience {
+        width: cover;
+        gap: 0.8rem;
+    }
+
+    .achievement>* {
+        font-size: 0.9rem;
+    }
+
+    .circle.thirdCir {
+        top: 0.7rem;
+    }
+
+}
