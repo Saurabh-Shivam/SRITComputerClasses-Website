@@ -48,6 +48,13 @@ const Navbar = () => {
               Contact{" "}
             </Link>
           </li>
+          <li>
+            {" "}
+            <Link className="n-link" to="login">
+              {" "}
+              Login{" "}
+            </Link>
+          </li>
         </ul>
       </div>
 
