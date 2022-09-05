@@ -8,7 +8,7 @@ import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer";
 import Login from "./components/Login/Login";
 import Register from "./components/Register/Register";
-import MyCourses from "./components/MyCourses/MyCourses";
+// import MyCourses from "./components/MyCourses/MyCourses";
 
 function App() {
   return (
@@ -21,7 +21,7 @@ function App() {
         <Route path="contact" element={<Contact />} />
         <Route path="login" element={<Login />} />
         <Route path="register" element={<Register />} />
-        <Route path="mycourses" element={<MyCourses />} />
+        {/* <Route path="mycourses" element={<MyCourses />} /> */}
       </Routes>
       <Footer />
     </div>
