@@ -60,7 +60,12 @@
 
 .i-icons>*:hover {
     cursor: pointer;
-    /* color: orange; */
+    color: var(--orange);
+    text-shadow: 0px 0px 30px var(--orange);
+    /* -moz-transition: all 0.2s ease-in; */
+    /* -o-transition: all 0.2s ease-in; */
+    /* -webkit-transition: all 0.2s ease-in; */
+    transition: all 0.2s ease-in;
 }
 
 
@@ -108,15 +113,27 @@
     /* ADDING ANIMATION */
     /* to move image in the page we have made it's position relative */
     position: relative;
-    animation-name: moveEmojiLeft;
+    animation-name: moveEmojiRight;
     animation-duration: 1.5s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
 
 }
 
-/* ADDING ANIMATION */
-@keyframes moveEmojiLeft {
+
+.floating-div {
+    /* ADDING ANIMATION */
+    /* to move image in the page we have made it's position relative */
+    /* position: relative; */
+    animation-name: moveLeft;
+    animation-duration: 1.5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+
+}
+
+/* ADDING ANIMATION FOR EMOJI */
+@keyframes moveEmojiRight {
     from {
         left: -38%;
     }
@@ -125,6 +142,23 @@
         left: -22%
     }
 }
+
+
+/* ADDING ANIMATION FOR FLOATING-DIVS */
+@keyframes moveLeft {
+    from {
+        margin-left: 400px;
+    }
+
+    /* 50% {
+        margin-left: 100px;
+        } */
+
+    to {
+        margin-right: 200px;
+    }
+}
+
 
 
 /* blur effect design on right side of intro section*/
