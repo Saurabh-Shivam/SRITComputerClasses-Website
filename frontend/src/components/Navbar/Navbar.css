@@ -242,7 +242,6 @@
 
 
 /* for responsiveness  */
-
 @media (max-width: 840px) {
     .Navbar>.nav-items {
         position: absolute;
