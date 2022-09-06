@@ -132,7 +132,7 @@
 
 }
 
-/* ADDING ANIMATION FOR EMOJI */
+/* ADDING ANIMATION  */
 @keyframes moveEmojiRight {
     from {
         left: -38%;
@@ -144,7 +144,7 @@
 }
 
 
-/* ADDING ANIMATION FOR FLOATING-DIVS */
+/* ADDING ANIMATION  */
 @keyframes moveLeft {
     from {
         margin-left: 400px;

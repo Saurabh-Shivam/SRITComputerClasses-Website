@@ -14,12 +14,19 @@
     box-shadow: var(--boxShadow);
     border-radius: 20px;
     padding: 0px 26px 2rem 26px;
+    /* ADDING ANIMATION */
+    animation-name: moveLeft;
+    animation-duration: 2.7s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+
 }
 
 /* First child of the card class i.e. img */
 .card>:nth-child(1) {
     transform: scale(0.6);
     margin-bottom: -2rem;
+
 }
 
 /* Third child of the card class i.e. span */
