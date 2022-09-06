@@ -156,7 +156,7 @@ similarly r-mainCircle inherits r-secCircle so r-secCircle will be absolute r.r.
     box-shadow: var(--smboxShadow);
     background: white;
     /* animation: spinAroundOpp 3s linear infinite; */
-    animation: spinAroundOpp 3s linear;
+    animation: spinAroundOpp 5s linear;
 }
 
 
