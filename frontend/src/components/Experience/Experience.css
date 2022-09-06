@@ -56,6 +56,24 @@ Use the content property to specify the content to insert. */
 
 }
 
+.circle:hover {
+    cursor: pointer;
+    background: var(--blueCard);
+    text-shadow: 0px 0px 30px var(--blueCard);
+    transition: all 0.2s ease-in;
+}
+
+.achievement:hover {
+    cursor: pointer;
+    color: rebeccapurple;
+}
+
+.achievement>:nth-child(3):hover {
+    cursor: pointer;
+    color: rebeccapurple;
+}
+
+
 /* Or we can write like this that we are targeting inside the div with className="achievement", the second class of type span
 .card span:nth-of-type(2) {
     color: var(--gray);

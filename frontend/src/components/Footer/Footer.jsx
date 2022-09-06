@@ -1,12 +1,12 @@
 import React from "react";
 import "./Footer.css";
 // Importing image
-import Wave from "../../img/wave.png";
+// import Wave from "../../img/wave.png";
 import Logo from "../../img/logo.png";
-import Insta from "@iconscout/react-unicons/icons/uil-instagram";
-import Facebook from "@iconscout/react-unicons/icons/uil-facebook";
-import Gitub from "@iconscout/react-unicons/icons/uil-github";
-import Linkedin from "@iconscout/react-unicons/icons/uil-linkedin";
+// import Insta from "@iconscout/react-unicons/icons/uil-instagram";
+// import Facebook from "@iconscout/react-unicons/icons/uil-facebook";
+// import Gitub from "@iconscout/react-unicons/icons/uil-github";
+// import Linkedin from "@iconscout/react-unicons/icons/uil-linkedin";
 
 const Footer = () => {
   return (
@@ -39,7 +39,7 @@ const Footer = () => {
             >
               <i
                 className="fa-solid fa-location-dot"
-                style={{ color: "black" }}
+                style={{ color: "#454545" }}
               >
                 <span style={{ fontSize: "18px", color: "var(--black)" }}>
                   {" "}
@@ -54,7 +54,7 @@ const Footer = () => {
               target="_blank"
               rel="noreferrer"
             >
-              <i className="fa-solid fa-phone" style={{ color: "black" }}>
+              <i className="fa-solid fa-phone" style={{ color: "#454545" }}>
                 <span style={{ fontSize: "16.5px", color: "var(--black)" }}>
                   {" "}
                   7717705050
@@ -64,7 +64,7 @@ const Footer = () => {
           </div>
           <div>
             <a href="https://www.gmail.com/" target="_blank" rel="noreferrer">
-              <i className="fa-solid fa-envelope" style={{ color: "black" }}>
+              <i className="fa-solid fa-envelope" style={{ color: "#454545" }}>
                 <span style={{ fontSize: "18px", color: "var(--black)" }}>
                   {" "}
                   Our Gmail
@@ -85,14 +85,7 @@ const Footer = () => {
         <div className="f-social" style={{ display: "flex", gap: "0.5rem" }}>
           <div>
             <a href="https://www.github.com/" target="_blank" rel="noreferrer">
-              <i
-                className="i-social fa-brands fa-github"
-                style={{
-                  color: "black",
-                  fontSize: "1.5rem",
-                  paddingTop: "0.5rem",
-                }}
-              ></i>{" "}
+              <i id="f-social" className="i-social fa-brands fa-github"></i>{" "}
             </a>
           </div>
           <div>
@@ -101,14 +94,7 @@ const Footer = () => {
               target="_blank"
               rel="noreferrer"
             >
-              <i
-                className="i-social fa-brands fa-linkedin"
-                style={{
-                  color: "black",
-                  fontSize: "1.5rem",
-                  paddingTop: "0.5rem",
-                }}
-              ></i>
+              <i id="f-social" className="i-social fa-brands fa-linkedin"></i>
             </a>
           </div>
           <div>
@@ -117,14 +103,7 @@ const Footer = () => {
               target="_blank"
               rel="noreferrer"
             >
-              <i
-                className="i-social fa-brands fa-instagram"
-                style={{
-                  color: "black",
-                  fontSize: "1.5rem",
-                  paddingTop: "0.5rem",
-                }}
-              ></i>
+              <i id="f-social" className="i-social fa-brands fa-instagram"></i>
             </a>
           </div>
           <div>
@@ -133,14 +112,7 @@ const Footer = () => {
               target="_blank"
               rel="noreferrer"
             >
-              <i
-                className="i-social fa-brands fa-facebook"
-                style={{
-                  color: "black",
-                  fontSize: "1.5rem",
-                  paddingTop: "0.5rem",
-                }}
-              ></i>
+              <i id="f-social" className="i-social fa-brands fa-facebook"></i>
             </a>
           </div>
         </div>
