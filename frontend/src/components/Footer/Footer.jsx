@@ -39,9 +39,15 @@ const Footer = () => {
             >
               <i
                 className="fa-solid fa-location-dot"
-                style={{ color: "#454545" }}
+                style={{ color: "#454545", fontSize: "18px" }}
               >
-                <span style={{ fontSize: "18px", color: "var(--black)" }}>
+                <span
+                  style={{
+                    fontSize: "18px",
+                    color: "var(--black)",
+                    fontFamily: "monospace",
+                  }}
+                >
                   {" "}
                   Patna
                 </span>
@@ -54,8 +60,17 @@ const Footer = () => {
               target="_blank"
               rel="noreferrer"
             >
-              <i className="fa-solid fa-phone" style={{ color: "#454545" }}>
-                <span style={{ fontSize: "16.5px", color: "var(--black)" }}>
+              <i
+                className="fa-solid fa-phone"
+                style={{ color: "#454545", fontSize: "18px" }}
+              >
+                <span
+                  style={{
+                    fontSize: "16.5px",
+                    color: "var(--black)",
+                    fontFamily: "monospace",
+                  }}
+                >
                   {" "}
                   7717705050
                 </span>
@@ -64,8 +79,17 @@ const Footer = () => {
           </div>
           <div>
             <a href="https://www.gmail.com/" target="_blank" rel="noreferrer">
-              <i className="fa-solid fa-envelope" style={{ color: "#454545" }}>
-                <span style={{ fontSize: "18px", color: "var(--black)" }}>
+              <i
+                className="fa-solid fa-envelope"
+                style={{ color: "#454545", fontSize: "18px" }}
+              >
+                <span
+                  style={{
+                    fontSize: "18px",
+                    color: "var(--black)",
+                    fontFamily: "monospace",
+                  }}
+                >
                   {" "}
                   Our Gmail
                 </span>
