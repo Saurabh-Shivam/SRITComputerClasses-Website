@@ -1,6 +1,7 @@
 import React, { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 import "./Contact.css";
+import { useNavigate } from "react-router-dom";
 // // for darkmode
 // import { themeContext } from "../../context/DarkMode/Context";
 // import { useContext } from "react";
@@ -10,7 +11,10 @@ const Contact = () => {
   // const theme = useContext(themeContext);
   // const darkMode = theme.state.darkMode;
 
-  // Coped and pasted from emailjs website
+  // helps in navigating from one route to another
+  const navigate = useNavigate();
+
+  // Copied and pasted from emailjs website
   const form = useRef();
 
   // Declare a  state variable, which we'll call "done" -> when email is send successfully
@@ -97,8 +101,8 @@ const Contact = () => {
             // onClick={handleclearClick}
           />
 
-          {/* if done==true send the message */}
-          <span>{done && "Thanks for contacting me"}</span>
+          {/* if done==true send to home page */}
+          <span>{done && navigate("/")}</span>
 
           <div
             className="blur c-blur2"
