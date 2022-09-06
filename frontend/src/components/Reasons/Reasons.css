@@ -95,14 +95,21 @@
     background: white;
     /* darkMode */
     z-index: 2;
+    /* animation: spinAround 4s linear infinite; */
+    animation: spinAround 3s linear;
+
 }
+
 
 /* Everthing inside .r-mainCircle will have positin absolute */
 /* r-right inherits r-mainCircle, so r-mainCircle position will be absolute r.r.t. r-right whose position will be relative
 similarly r-mainCircle inherits r-secCircle so r-secCircle will be absolute r.r.t. r-mainCircle whose position will be relative */
-.r-mainCircle>* {
+/* .r-mainCircle>* {
     position: absolute;
-}
+} */
+
+
+
 
 /* first child, i.e. img-> Upwork */
 .r-mainCircle> :nth-child(1) {
@@ -148,6 +155,42 @@ similarly r-mainCircle inherits r-secCircle so r-secCircle will be absolute r.r.
     background: none;
     box-shadow: var(--smboxShadow);
     background: white;
+    /* animation: spinAroundOpp 3s linear infinite; */
+    animation: spinAroundOpp 3s linear;
+}
+
+
+/* @keyframes spinAround {
+    from {
+        transform: rotate(0deg) translate(0px);
+    }
+
+    to {
+        transform: rotate(360deg) translate(0px);
+    }
+}
+
+
+
+@keyframes spinAroundOpp {
+    from {
+        transform: rotate(360deg) translate(0px);
+    }
+
+    to {
+        transform: rotate(0deg) translate(0px);
+    }
+} */
+
+
+@keyframes spinAroundOpp {
+    from {
+        transform: rotate(0deg) translate(0px);
+    }
+
+    to {
+        transform: rotate(360deg) translate(0px);
+    }
 }
 
 /* selecting all the images inside r-secCircle class and transforming them to the 6% of their total size */
