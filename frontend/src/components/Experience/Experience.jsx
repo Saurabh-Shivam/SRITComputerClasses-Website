@@ -17,6 +17,7 @@ const Experience = () => {
           // for darkmode
           // style={{ color: darkMode ? "var(--orange)" : "" }}
         >
+          {/* 12+ */}
           x+
         </div>
         {/* for darkmode */}
@@ -34,15 +35,16 @@ const Experience = () => {
           // for darkmode
           // style={{ color: darkMode ? "var(--orange)" : "" }}
         >
+          {/* 25+ */}
           y+
         </div>
         {/* for darkmode */}
         <span
         // style={{ color: darkMode ? "white" : "" }}
         >
-          students
+          batches
         </span>
-        <span>Placed</span>
+        <span>Successfully completed</span>
       </div>
 
       <div className="achievement">
@@ -51,15 +53,16 @@ const Experience = () => {
           // for darkmode
           // style={{ color: darkMode ? "var(--orange)" : "" }}
         >
+          {/* 100+ */}
           z+
         </div>
         {/* for darkmode */}
         <span
         // style={{ color: darkMode ? "white" : "" }}
         >
-          different
+          students
         </span>
-        <span>Institutes Worked</span>
+        <span>Placed</span>
       </div>
     </div>
   );

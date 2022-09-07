@@ -2,7 +2,8 @@ import React from "react";
 import "./Footer.css";
 // Importing image
 // import Wave from "../../img/wave.png";
-import Logo from "../../img/logo.png";
+// import Logo from "../../img/logo.png";
+import Logo from "../../img/sritlogo.png";
 // import Insta from "@iconscout/react-unicons/icons/uil-instagram";
 // import Facebook from "@iconscout/react-unicons/icons/uil-facebook";
 // import Gitub from "@iconscout/react-unicons/icons/uil-github";
@@ -19,7 +20,7 @@ const Footer = () => {
           style={{
             width: "5rem",
             heigh: "5rem",
-            filter: "contrast(0)",
+            // filter: "contrast(0)",
           }}
         />
         <span>

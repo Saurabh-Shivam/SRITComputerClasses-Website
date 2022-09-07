@@ -45,7 +45,7 @@ export const testimonialData = [
   {
     img: profilePic6,
     review:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex officiis molestiae quod tempora laudantium, cumque error a nisi placeat quae exercitationem, maiores reiciendis! Eaque dicta minima, iure maiores dolorum sed.",
+      "shubham sir is best rror a nisi placeat quae exercitationem, maiores reiciendis! Eaque dicta minima, iure maiores dolorum sed.",
     name: "stu",
     status: "B.Sc. CS",
   },
