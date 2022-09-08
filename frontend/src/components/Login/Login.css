@@ -79,6 +79,10 @@ textarea {
         margin-top: 20px;
     }
 
+    .l-left {
+        margin-top: 5rem;
+    }
+
     .l-left>:nth-child(1) {
         font-size: xx-large;
         margin-bottom: 15px;

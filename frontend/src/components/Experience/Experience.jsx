@@ -17,8 +17,7 @@ const Experience = () => {
           // for darkmode
           // style={{ color: darkMode ? "var(--orange)" : "" }}
         >
-          {/* 12+ */}
-          x+
+          12+
         </div>
         {/* for darkmode */}
         <span
@@ -35,8 +34,7 @@ const Experience = () => {
           // for darkmode
           // style={{ color: darkMode ? "var(--orange)" : "" }}
         >
-          {/* 25+ */}
-          y+
+          25+
         </div>
         {/* for darkmode */}
         <span
@@ -53,8 +51,7 @@ const Experience = () => {
           // for darkmode
           // style={{ color: darkMode ? "var(--orange)" : "" }}
         >
-          {/* 100+ */}
-          z+
+          100+
         </div>
         {/* for darkmode */}
         <span

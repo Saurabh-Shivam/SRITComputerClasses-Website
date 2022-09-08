@@ -79,12 +79,19 @@
 
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
+// import Logo from "../../img/sritlogo.png";
 import "./Navbar.css";
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   return (
     <div className="Navbar">
-      <span className="nav-logo">Random</span>
+      {/* <img
+        style={{ transform: "scale(0.3)" }}
+        className="nav-logo"
+        src={Logo}
+        alt=""
+      /> */}
+      <span className="nav-logo">SRIT Computer Classes</span>
       <div className={`nav-items ${isOpen && "open"}`}>
         <Link id="nav-link" to="/">
           Home

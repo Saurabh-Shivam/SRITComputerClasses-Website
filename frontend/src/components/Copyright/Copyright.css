@@ -1,0 +1,38 @@
+.copyright {
+    display: flex;
+    margin-top: 1.5rem;
+    margin-left: 22rem;
+}
+
+.copyright>span {
+    font-size: 11px;
+    color: black;
+}
+
+.developer {
+    margin-left: -7rem;
+    margin-top: -0.6rem;
+}
+
+.developer>span {
+    font-size: 11px;
+    color: black;
+}
+
+.developer>span:hover {
+    color: var(--orange);
+    cursor: pointer;
+}
+
+/* for responsiveness */
+@media screen and (max-width: 840px) {
+    .copyright {
+        display: flex;
+        margin-left: 3rem;
+    }
+
+    .developer {
+        margin-left: -7rem;
+        margin-top: -0.8rem;
+    }
+}

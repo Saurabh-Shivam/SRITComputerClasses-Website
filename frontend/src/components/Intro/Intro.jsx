@@ -29,12 +29,13 @@ const Intro = () => {
           >
             Hy! I Am
           </span>
-          <span>Random</span>
+          <span>Shubham</span>
           <span>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis
-            odit, ad facere nulla sunt eius adipisci tempore amet, possimus nisi
-            atque assumenda eos provident aspernatur. Ex aliquam architecto unde
-            iste!
+            The founder and director of this institute, teacher with more than
+            12 years of teaching experience in the Computer Field. SRIT(Shubham
+            Raj Info Tech) is a Private Company where we guide and teach people
+            who are interested to enter the Computer/IT field with varierty of
+            different courses.
           </span>
         </div>
         <Link to="courses">
@@ -64,14 +65,14 @@ const Intro = () => {
 
         <div className="floating-div" style={{ top: "-4%", left: "68%" }}>
           {/* Here we are passing values as props to the FloatingDiv component */}
-          <FloatingDiv image={Crown} txt1="Web" txt2="Developer" />
+          <FloatingDiv image={Crown} txt1="Web" txt2="Development" />
         </div>
 
         <div
           className="floating-div"
-          style={{ top: "15.9rem", left: "0.3rem" }}
+          style={{ top: "15.9rem", left: "1.1rem" }}
         >
-          <FloatingDiv image={thumbup} txt1="Best Design" txt2="Award" />
+          <FloatingDiv image={thumbup} txt1="DSA" txt2="Specialist" />
         </div>
 
         {/* Blur effect design */}

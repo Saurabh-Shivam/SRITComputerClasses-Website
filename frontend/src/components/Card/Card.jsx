@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./Card.css";
 // // for darkmode
 // import { themeContext } from "../../context/DarkMode/Context";
@@ -17,7 +18,7 @@ const Card = ({ emoji, heading, detail }) => {
       <img src={emoji} alt="" />
       <span>{heading}</span>
       <span>{detail}</span>
-      <a href="http://www.udemy.com">
+      <Link to="/courses">
         <button
           className="c-button"
           //   // for darkmode
@@ -25,7 +26,7 @@ const Card = ({ emoji, heading, detail }) => {
         >
           LEARN MORE
         </button>
-      </a>
+      </Link>
     </div>
   );
 };

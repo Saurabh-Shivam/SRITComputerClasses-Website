@@ -14,16 +14,36 @@ const About = () => {
       <div className="a-down">
         <div className="a-para">
           <span>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Necessitatibus veniam placeat natus, explicabo beatae autem illo
-            minus consectetur iste, mollitia quis vel error laboriosam maiores!
-            Expedita unde vero quia sed? Lorem ipsum dolor sit amet consectetur
-            adipisicing elit. Necessitatibus veniam placeat natus, explicabo
-            beatae autem illo minus consectetur iste, mollitia quis vel error
-            laboriosam maiores! Expedita unde vero quia sed? Lorem ipsum dolor
-            sit amet consectetur adipisicing elit. Necessitatibus veniam placeat
-            natus, explicabo beatae autem illo minus consectetur iste, mollitia
-            quis vel error laboriosam maiores! Expedita unde vero quia sed?
+            SRIT(Shubham Raj Info Tech) is a Private Company where we guide and
+            teach people who are interested to enter the Computer/IT field with
+            varierty of different courses with the experties of Shubham
+            Raj(Founder and Director), who has an experience of more than 12
+            years in the IT field.
+            <br /> <br />
+            At Present, we are providing coaching for Computer Science (CS) &
+            Information and technology (IT), Online Services (incl. Online Test,
+            Video Tutorial, and Online Materials), Industrial Training,
+            Certification Courses, Workshop, Web Development, Project Training,
+            Job Opportunities and much more. Proficient execution and Quality
+            education, forms our core of performance which is backed by vast
+            experience of the teachers.
+            <br /> <br />
+            Our education campus is equipped with WI-FI and Air condition. Our
+            mode of teaching based on audio-visual aids in classrooms and labs
+            which are equipped with latest computers, Projector, internet
+            facility, WI-FI campus etc.
+          </span>
+
+          <span>About our Director</span>
+          <span className="a-founder">
+            Shubham Raj, the founder and director of this institute, teacher
+            with more than 12 years of teaching experience in the Computer
+            Field. He has completed his MCA from LN Mishra and during that time
+            he had worked on multiple projects under "Beltron Bihar Government".
+            He has placed more than 100's of students to different companies
+            like Google, ISRO, Amazon, Infosis, Wipro, TCS, etc. with his
+            excellent and unqiue teaching style. Currently, he is also working
+            as a "Lecturer in the Patna University of BCA + MCA department"
           </span>
         </div>
       </div>

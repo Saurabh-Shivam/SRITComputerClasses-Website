@@ -28,10 +28,9 @@ const Services = () => {
         </span>
         <span>services</span>
         <span>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste facere
-          perspiciatis magnam.
-          <br /> Placeat eveniet nostrum sed optio eius dolor totam illo ab
-          quisquam? Similique animi tempora accusantium aliquam unde sed?
+          For both technical and non-technical background students we provide
+          some job oriented Modular/Special courses, from basics to advance
+          level.
         </span>
         {/* This will enable the user to download the uploaded file */}
         <a href={myServices} download>
@@ -48,8 +47,10 @@ const Services = () => {
           {/* Here we are passing values as props to the Card component */}
           <Card
             emoji={HeartEmoji}
-            heading={"Heading1"}
-            detail={"Skill, Skill, Skill, Skill, Skill"}
+            heading={"ADCA"}
+            detail={
+              "Computer Fundamentals, Windows, MS-Office, Internet, C, C++, HTML, Tally, DTP"
+            }
           />
         </div>
 
@@ -58,8 +59,10 @@ const Services = () => {
           {/* Here we are passing values as props to the Card component */}
           <Card
             emoji={Glasses}
-            heading={"Heading2"}
-            detail={"Skill, Skill, Skill, Skill, Skill"}
+            heading={"Full Stack Web Development"}
+            detail={
+              "HTML, CSS, Javascript, Node, React, MongoDB and Deployment and many other things in depth!"
+            }
           />
         </div>
 
@@ -68,8 +71,10 @@ const Services = () => {
           {/* Here we are passing values as props to the Card component */}
           <Card
             emoji={Humble}
-            heading={"Heading3"}
-            detail={"Skill, Skill, Skill, Skill, Skill"}
+            heading={"Project Development"}
+            detail={
+              "you will learn about real world project(Software/App Development) along with it's deployment on Google."
+            }
           />
         </div>
         {/* Blur effect design, className="blur" styling is done in the Intro.css file */}

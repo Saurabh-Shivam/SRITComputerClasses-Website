@@ -83,6 +83,37 @@
     -webkit-text-stroke-color: orange;
 }
 
+.c-type1 {
+    display: flex;
+    margin-top: 7rem;
+    margin-left: 19rem;
+    gap: 1rem;
+    margin-bottom: -6rem;
+}
+
+.c-type1>span {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: black;
+    text-decoration: underline;
+
+}
+
+.c-type2 {
+    display: flex;
+    margin-top: 0.5rem;
+    margin-left: 21rem;
+    gap: 1rem;
+    margin-bottom: -6rem;
+}
+
+.c-type2>span {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: black;
+    text-decoration: underline;
+
+}
 
 .course {
     margin-top: 5rem;
@@ -121,9 +152,10 @@
 .course>:nth-child(1) {
     color: var(--black);
     font-weight: bold;
-    font-size: 2.3rem;
+    font-size: 2rem;
     margin-top: 1.5rem;
     margin-bottom: -0.8rem;
+    /* text-decoration: underline; */
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
@@ -147,8 +179,7 @@
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-
-
+/* for responsiveness */
 @media screen and (max-width: 840px) {
     .courses-container {
         display: flex;
@@ -176,6 +207,31 @@
         font-family: Arial, Helvetica, sans-serif;
     }
 
+    .c-type1 {
+        display: flex;
+        margin-top: 7rem;
+        margin-left: -2.3rem;
+        gap: 1rem;
+        margin-bottom: -6rem;
+    }
+
+    .c-type1>span {
+        font-size: 1rem;
+    }
+
+    .c-type2 {
+        display: flex;
+        margin-top: 0.5rem;
+        margin-left: 1.5rem;
+        gap: 1rem;
+        margin-bottom: -6rem;
+    }
+
+    .c-line {
+        width: max-content;
+        margin-left: -3rem;
+        font-size: bold;
+    }
 
     .courses {
         display: flex;

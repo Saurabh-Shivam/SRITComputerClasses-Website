@@ -200,8 +200,9 @@
     margin: 15px;
     /* color: #ffffff; */
     color: var(--black);
-    font-size: 1.3rem;
-    font-weight: bold;
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    /* font-weight: bold; */
 }
 
 .Navbar>.nav-items>a {

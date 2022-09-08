@@ -2,9 +2,9 @@ import React from "react";
 import "./Reasons.css";
 // Importing images
 import tick from "../../img/tick.png";
-import Amazon from "../../img/amazon.png";
-import Upwork from "../../img/Upwork.png";
-import Facebook from "../../img/Facebook.png";
+import Project from "../../img/project.png";
+import Notes from "../../img/notes.png";
+import Job from "../../img/job.png";
 import Skill from "../../img/skill.png";
 import Certificate from "../../img/certifi.png";
 import { Link } from "react-router-dom";
@@ -31,27 +31,32 @@ const Reasons = () => {
         <div className="r-points">
           <div>
             <img src={tick} alt="" />
-            <span>Lorem ipsum dolor sit amet consectetur</span>
+            <span>Certificate of appreciation</span>
           </div>
 
           <div>
             <img src={tick} alt="" />
-            <span>Iste facere jgnsdignsg nfsofnsopf perspiciatis magnam</span>
+            <span>Teacher with more than 12+ years of experience</span>
           </div>
 
           <div>
             <img src={tick} alt="" />
-            <span>Iste facere jgnsdignsg nfsofnsopf perspiciatis magnam</span>
+            <span>Notes along with Online/Offline test weekly tests</span>
           </div>
 
           <div>
             <img src={tick} alt="" />
-            <span>ab quisquam? Similique animi tempora accusa</span>
+            <span>Real Life Project Development</span>
+          </div>
+
+          <div>
+            <img src={tick} alt="" />
+            <span>Job Opportunities</span>
           </div>
         </div>
 
         <Link to="contact">
-          <button className="button s-button">Download</button>
+          <button className="button s-button">Contact</button>
         </Link>
         {/* Blur effect design, className="blur" styling is done in the Intro.css file */}
         {/* <div className="blur s-blur1" style={{ background: "#ABF1FF94" }}></div> */}
@@ -62,7 +67,11 @@ const Reasons = () => {
       <div className="r-right">
         <div className="r-mainCircle">
           <div className="r-secCircle">
-            <img src={Upwork} alt="" />
+            <img
+              style={{ transform: "scale(0.3)", marginLeft: "0.5rem" }}
+              src={Notes}
+              alt=""
+            />
           </div>
 
           <div className="r-secCircle">
@@ -75,7 +84,11 @@ const Reasons = () => {
           </div>
 
           <div className="r-secCircle">
-            <img src={Amazon} alt="" />
+            <img
+              style={{ transform: "scale(0.22)", marginRight: "0.4rem" }}
+              src={Project}
+              alt=""
+            />
           </div>
 
           <div className="r-secCircle">
@@ -93,7 +106,15 @@ const Reasons = () => {
           </div>
 
           <div className="r-secCircle">
-            <img src={Facebook} alt="" />
+            <img
+              style={{
+                transform: "scale(0.37)",
+                marginTop: "1rem",
+                marginBottom: "0.1rem",
+              }}
+              src={Job}
+              alt=""
+            />
           </div>
         </div>
 

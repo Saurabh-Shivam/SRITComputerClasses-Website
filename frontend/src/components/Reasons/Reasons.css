@@ -37,6 +37,7 @@
     color: transparent;
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: orange;
+    margin-bottom: 1rem;
 }
 
 /* for the third child, i.e. span-> points */

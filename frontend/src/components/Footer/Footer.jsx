@@ -24,20 +24,17 @@ const Footer = () => {
           }}
         />
         <span>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste facere
-          perspiciatis magnam. Placeat eveniet nostrum sed optio eius dolor
-          totam illo ab quisquam?
+          Thank you for visiting our website..!! If you want to do some enquiry
+          about the courses kindly contact us through either mail, call or visit
+          our institue. We shal be glad to teach you and make your programming
+          carrier easy.
         </span>
       </div>
       <div className="f-mid">
         <span>Contact</span>
         <div className="f-contact">
           <div>
-            <a
-              href="https://www.googlemaps.com/"
-              target="_blank"
-              rel="noreferrer"
-            >
+            <a href="http://surl.li/cydmg" target="_blank" rel="noreferrer">
               <i
                 className="fa-solid fa-location-dot"
                 style={{ color: "#454545", fontSize: "18px" }}
@@ -57,7 +54,7 @@ const Footer = () => {
           </div>
           <div>
             <a
-              href="https://www.truecaller.com/"
+              href="https://www.truecaller.com/search/in/%209234276712"
               target="_blank"
               rel="noreferrer"
             >
@@ -73,13 +70,17 @@ const Footer = () => {
                   }}
                 >
                   {" "}
-                  7717705050
+                  9234276712
                 </span>
               </i>
             </a>
           </div>
           <div>
-            <a href="https://www.gmail.com/" target="_blank" rel="noreferrer">
+            <a
+              href="https://mail.google.com/mail/u/0/#inbox?compose=new"
+              target="_blank"
+              rel="noreferrer"
+            >
               <i
                 className="fa-solid fa-envelope"
                 style={{ color: "#454545", fontSize: "18px" }}
@@ -92,7 +93,7 @@ const Footer = () => {
                   }}
                 >
                   {" "}
-                  Our Gmail
+                  sritcomputerclasses
                 </span>
               </i>
             </a>
@@ -109,7 +110,11 @@ const Footer = () => {
         </span>
         <div className="f-social" style={{ display: "flex", gap: "0.5rem" }}>
           <div>
-            <a href="https://www.github.com/" target="_blank" rel="noreferrer">
+            <a
+              href="https://github.com/SRIT-ComputerCLasses"
+              target="_blank"
+              rel="noreferrer"
+            >
               <i id="f-social" className="i-social fa-brands fa-github"></i>{" "}
             </a>
           </div>

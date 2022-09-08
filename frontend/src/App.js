@@ -8,6 +8,7 @@ import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer";
 import Login from "./components/Login/Login";
 import Register from "./components/Register/Register";
+import Copyright from "./components/Copyright/Copyright";
 // import MyCourses from "./components/MyCourses/MyCourses";
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
         {/* <Route path="mycourses" element={<MyCourses />} /> */}
       </Routes>
       <Footer />
+      <Copyright />
     </div>
   );
 }
