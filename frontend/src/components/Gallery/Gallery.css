@@ -64,7 +64,7 @@
     position: absolute;
     width: 30rem;
     height: 25rem;
-    object-fit: cover;
+    object-fit: contain;
     right: 0rem;
     top: 1.5rem;
 

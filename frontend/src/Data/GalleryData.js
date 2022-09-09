@@ -1,17 +1,14 @@
 // Importing images
-import Lab from "../img/lab.jpg";
-import Teaching from "../img/teaching.jpg";
-import Classroom from "../img/classroom.jpg";
-import Students from "../img/students.jpg";
-import Students2 from "../img/students2.jpg";
-import Teaching2 from "../img/teaching2.jpg";
-import Classroom2 from "../img/classroom2.jpg";
-import Lab2 from "../img/lab2.jpg";
+import Lab from "../img/lab.jpeg";
+import Teaching from "../img/teaching.jpeg";
+import Classroom from "../img/classroom.jpeg";
+import Students from "../img/students.jpeg";
+import Students2 from "../img/students2.jpeg";
+import Students3 from "../img/students3.jpeg";
+import Classroom2 from "../img/classroom2.jpeg";
+import Banner from "../img/banner.jpeg";
 
 export const GalleryData = [
-  {
-    img: Lab,
-  },
   {
     img: Teaching,
   },
@@ -22,15 +19,18 @@ export const GalleryData = [
     img: Students,
   },
   {
-    img: Lab2,
+    img: Lab,
   },
   {
-    img: Teaching2,
+    img: Banner,
+  },
+  {
+    img: Students2,
   },
   {
     img: Classroom2,
   },
   {
-    img: Students2,
+    img: Students3,
   },
 ];
