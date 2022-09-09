@@ -28,11 +28,11 @@
 @media screen and (max-width: 840px) {
     .copyright {
         display: flex;
-        margin-left: 3rem;
+        margin-left: 4.25rem;
     }
 
     .developer {
-        margin-left: -7rem;
+        margin-left: -6.2rem;
         margin-top: -0.8rem;
     }
 }

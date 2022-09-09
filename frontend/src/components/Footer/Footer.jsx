@@ -90,9 +90,9 @@ const Footer = () => {
                     fontSize: "18px",
                     color: "var(--black)",
                     fontFamily: "monospace",
+                    marginLeft: "5px",
                   }}
                 >
-                  {" "}
                   sritcomputerclasses
                 </span>
               </i>
@@ -136,7 +136,7 @@ const Footer = () => {
               <i id="f-social" className="i-social fa-brands fa-instagram"></i>
             </a>
           </div>
-          <div>
+          {/* <div>
             <a
               href="https://www.facebook.com/"
               target="_blank"
@@ -144,7 +144,7 @@ const Footer = () => {
             >
               <i id="f-social" className="i-social fa-brands fa-facebook"></i>
             </a>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>
