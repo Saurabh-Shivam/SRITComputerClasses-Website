@@ -51,7 +51,7 @@
 
     color: transparent;
     -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: orange;
+    -webkit-text-stroke-color: var(--orange);
 }
 
 /* for the second child, i.e. span-> your journey */
@@ -80,7 +80,7 @@
 
     color: transparent;
     -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: orange;
+    -webkit-text-stroke-color: var(--orange);
 }
 
 .c-type1 {

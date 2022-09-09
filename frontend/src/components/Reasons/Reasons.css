@@ -36,7 +36,7 @@
     font-family: Arial, Helvetica, sans-serif;
     color: transparent;
     -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: orange;
+    -webkit-text-stroke-color: var(--orange);
     margin-bottom: 1rem;
 }
 
@@ -217,7 +217,7 @@ similarly r-mainCircle inherits r-secCircle so r-secCircle will be absolute r.r.
 }
 
 .yellowCircle {
-    background: #F5C32C;
+    background: var(--yellow);
     left: 18rem;
     top: 8rem;
 }
