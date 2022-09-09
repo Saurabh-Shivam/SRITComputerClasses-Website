@@ -99,14 +99,14 @@ const Navbar = () => {
         <Link id="nav-link" to="courses">
           Courses
         </Link>
-        <Link id="nav-link" to="about">
-          About
-        </Link>
         <Link id="nav-link" to="contact">
           Contact
         </Link>
-        <Link id="nav-link" to="login">
-          Login
+        <Link id="nav-link" to="about">
+          About
+        </Link>
+        <Link id="nav-link" to="gallery">
+          Gallery
         </Link>
       </div>
       <div

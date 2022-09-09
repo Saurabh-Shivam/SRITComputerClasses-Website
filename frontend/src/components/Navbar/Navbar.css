@@ -254,7 +254,7 @@
         background: var(--orangeCard);
         /* background: transparent; */
         left: 0;
-        width: 100%;
+        width: max-content;
         /* height: 100%; */
         height: 10%;
         transform: translateX(-100%);

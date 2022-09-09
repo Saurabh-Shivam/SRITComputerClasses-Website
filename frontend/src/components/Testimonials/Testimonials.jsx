@@ -9,14 +9,14 @@ import rightArrow from "../../img/rightArrow.png";
 // import { Pagination } from "swiper";
 // import "swiper/css/pagination";
 // import "swiper/css";
-import { testimonialData } from "../../Data/testimonialData";
+import { TestimonialData } from "../../Data/TestimonialData";
 // // for darkmode
 // import { themeContext } from "../../context/DarkMode/Context";
 // import { useContext } from "react";
 
 const Testimonials = () => {
   const [selected, setSelected] = useState(0);
-  const tLength = testimonialData.length;
+  const tLength = TestimonialData.length;
 
   // //for darkmode context
   // const theme = useContext(themeContext);
@@ -49,18 +49,18 @@ const Testimonials = () => {
             letterSpacing: "2px",
           }}
         >
-          {testimonialData[selected].review}
+          {TestimonialData[selected].review}
         </span>
         <span>
           <span style={{ color: "var(--orange", paddingTop: "0.5rem" }}>
-            {testimonialData[selected].name}
+            {TestimonialData[selected].name}
           </span>
           {/* for darkmode */}
           <span
           // style={{ color: darkMode ? "white" : "" }}
           >
             {" "}
-            --{testimonialData[selected].status}
+            --{TestimonialData[selected].status}
           </span>
         </span>
         {/* This will enable the user to download the uploaded file */}
@@ -76,7 +76,7 @@ const Testimonials = () => {
         {/* For box-design behind the profile images */}
         <div></div>
         <div></div>
-        <img src={testimonialData[selected].img} alt="" />
+        <img src={TestimonialData[selected].img} alt="" />
 
         <div className="arrows">
           <img

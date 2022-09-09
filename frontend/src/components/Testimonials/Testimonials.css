@@ -79,7 +79,7 @@
     font-family: Arial, Helvetica, sans-serif;
     color: transparent;
     -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: orange;
+    -webkit-text-stroke-color: var(--orange);
 }
 
 .t-head>:nth-child(3) {

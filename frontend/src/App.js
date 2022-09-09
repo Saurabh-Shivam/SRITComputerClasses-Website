@@ -9,6 +9,9 @@ import Footer from "./components/Footer/Footer";
 import Login from "./components/Login/Login";
 import Register from "./components/Register/Register";
 import Copyright from "./components/Copyright/Copyright";
+// import ImageSlider from "./components/Gallery/ImageSlider";
+// import { SliderData } from "./Data/SliderData";
+import Gallery from "./components/Gallery/Gallery";
 // import MyCourses from "./components/MyCourses/MyCourses";
 
 function App() {
@@ -22,6 +25,9 @@ function App() {
         <Route path="contact" element={<Contact />} />
         <Route path="login" element={<Login />} />
         <Route path="register" element={<Register />} />
+        {/* <Route path="gallery" element={<ImageSlider slides={SliderData} />} /> */}
+        <Route path="gallery" element={<Gallery />} />
+
         {/* <Route path="mycourses" element={<MyCourses />} /> */}
       </Routes>
       <Footer />

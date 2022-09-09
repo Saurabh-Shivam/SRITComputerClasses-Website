@@ -6,7 +6,7 @@ import profilePic4 from "../img/profile4.jpg";
 import profilePic5 from "../img/profile5.jpg";
 import profilePic6 from "../img/profile6.jpg";
 
-export const testimonialData = [
+export const TestimonialData = [
   {
     img: profilePic1,
     review:
