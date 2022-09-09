@@ -47,6 +47,7 @@ const Testimonials = () => {
             // color: darkMode ? "white" : "",
             fontSize: "17px",
             letterSpacing: "2px",
+            color: "var(--gray)",
           }}
         >
           {TestimonialData[selected].review}

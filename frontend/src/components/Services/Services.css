@@ -75,7 +75,9 @@
     .s-right {
         display: flex;
         flex-direction: column;
-        gap: 17rem;
+        gap: 20rem;
+        width: max-content;
+        height: max-content;
     }
 
     .s-right>* {

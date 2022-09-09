@@ -40,6 +40,7 @@ const About = () => {
             with more than 12 years of teaching experience in the Computer
             Field. He has completed his MCA from LN Mishra and during that time
             he had worked on multiple projects under "Beltron Bihar Government".
+            <br /> <br />
             He has placed more than 100's of students to different companies
             like Google, ISRO, Amazon, Infosis, Wipro, TCS, etc. with his
             excellent and unqiue teaching style. Currently, he is also working
