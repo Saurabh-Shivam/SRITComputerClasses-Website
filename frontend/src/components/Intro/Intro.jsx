@@ -4,7 +4,8 @@ import "./Intro.css";
 // Importing images
 import Vector1 from "../../img/Vector1.png";
 import Vector2 from "../../img/Vector2.png";
-import user from "../../img/user.png";
+// import user from "../../img/user2.png";
+import user from "../../img/user3.png";
 import thumbup from "../../img/thumbup.png";
 import Crown from "../../img/crown.png";
 import glassemojy from "../../img/glassemojy.png";
@@ -44,13 +45,21 @@ const Intro = () => {
           </button>
         </Link>
         <div className="i-icons">
-          <a href="https://www.github.com/" target="_blank" rel="noreferrer">
+          <a
+            href="https://github.com/SRIT-ComputerCLasses"
+            target="_blank"
+            rel="noreferrer"
+          >
             <i className="i-social fa-brands fa-github"></i>
           </a>
           <a href="https://www.linkedIn.com/" target="_blank" rel="noreferrer">
             <i className="i-social fa-brands fa-linkedin"></i>
           </a>
-          <a href="https://www.instagram.com/" target="_blank" rel="noreferrer">
+          <a
+            href="https://www.instagram.com/sritcomputerclasses/"
+            target="_blank"
+            rel="noreferrer"
+          >
             <i className="i-social fa-brands fa-instagram"></i>
           </a>
         </div>

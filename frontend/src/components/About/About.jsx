@@ -14,8 +14,8 @@ const About = () => {
       <div className="a-down">
         <div className="a-para">
           <span>
-            SRIT(Shubham Raj Info Tech) is a Private Company where we guide and
-            teach people who are interested to enter the Computer/IT field with
+            SRIT(Shubham Raj Info Tech) is an institute where we guide and teach
+            people who are interested to enter the Computer/IT field with
             varierty of different courses with the experties of Shubham
             Raj(Founder and Director), who has an experience of more than 12
             years in the IT field.
@@ -38,8 +38,9 @@ const About = () => {
           <span className="a-founder">
             Shubham Raj, the founder and director of this institute, teacher
             with more than 12 years of teaching experience in the Computer
-            Field. He has completed his MCA from LN Mishra and during that time
-            he had worked on multiple projects under "Beltron Bihar Government".
+            Field. He has completed his MCA from L N Mishra Patna and during
+            that time he had worked on multiple projects under "Beltron Bihar
+            Government".
             <br /> <br />
             He has placed more than 100's of students to different companies
             like Google, ISRO, Amazon, Infosis, Wipro, TCS, etc. with his

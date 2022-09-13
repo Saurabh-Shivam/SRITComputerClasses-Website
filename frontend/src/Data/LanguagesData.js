@@ -33,12 +33,18 @@ export const LanguagesData = [
     title: "Data Strucutre",
     detail:
       "Learn, Analyse and Implement Data Structure using C and C++. You will be Learning about Arrays, Linked Lists, Trees, Hashtables, Stacks, Queues, Heaps, Sort algorithms and Search algorithms, etc.",
-    duration: "Duration :-> 2 Months",
+    duration: "Duration :-> 45 Days",
   },
   {
     title: "MS-Office",
     detail:
       "Learn basic to advanced Microsoft Office skills(Ms Word, Ms Excel, Ms PowerPoint, etc.) in this 9-course bundle for Office 365 or Office 2019",
-    duration: "Duration :-> 3 Months",
+    duration: "Duration :-> 2 Months",
+  },
+  {
+    title: "Tally",
+    detail:
+      "Maintain Accounts of Any Business with Confidence and Conviction. A Step by Step Guide to help you understand Tally.",
+    duration: "Duration :-> 45 Days",
   },
 ];

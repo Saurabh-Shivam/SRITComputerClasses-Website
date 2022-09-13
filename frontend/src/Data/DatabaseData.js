@@ -5,9 +5,9 @@ export const DatabaseData = [
     duration: "Duration :-> 45 days",
   },
   {
-    title: "SQL",
+    title: "MySQL",
     detail:
-      "Become an In-demand SQL Master by creating complex databases and building reports through real-world projects.",
+      "Become an In-demand MySQL Master by creating complex databases and building reports through real-world projects.",
     duration: "Duration :-> 45 days",
   },
   {

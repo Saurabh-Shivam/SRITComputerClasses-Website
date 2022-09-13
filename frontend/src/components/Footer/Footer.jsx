@@ -129,7 +129,7 @@ const Footer = () => {
           </div>
           <div>
             <a
-              href="https://www.instagram.com/"
+              href="https://www.instagram.com/sritcomputerclasses/"
               target="_blank"
               rel="noreferrer"
             >

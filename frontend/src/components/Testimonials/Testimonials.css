@@ -99,7 +99,8 @@
     position: absolute;
     width: 17rem;
     height: 16rem;
-    object-fit: cover;
+    object-fit: fill;
+    /* object-fit: cover; */
     right: 0rem;
     top: 1.5rem;
     /* border-radius: 50%; */

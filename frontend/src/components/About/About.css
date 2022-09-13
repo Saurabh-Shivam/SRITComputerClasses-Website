@@ -10,13 +10,14 @@
 .a-up>img {
     /* display: flex; */
     /* position: relative; */
-    width: 22rem;
-    height: 16rem;
+    width: 20.1rem;
+    height: 18rem;
+    object-fit: cover;
     margin-left: 17rem;
     /* margin-top: 5rem; */
     border-radius: 3%;
     box-shadow: var(--black);
-    border: 7px solid var(--orange);
+    border: 4.8px solid var(--orange);
 }
 
 .a-down {
@@ -46,7 +47,6 @@
 }
 
 .a-para>span:nth-child(3) {
-    font-size: 15px;
     word-spacing: 5px;
     /* letter-spacing: 1.5px; */
     /* color: black; */
@@ -61,7 +61,7 @@
     .about {
         /* display: flex; */
         /* height: 77vh; */
-        height: 70rem;
+        height: 75rem;
         width: max-content;
         margin-top: -8rem;
         /* flex-direction: row; */
@@ -71,8 +71,8 @@
     }
 
     .a-up>img {
-        width: 13rem;
-        height: 10rem;
+        width: 12rem;
+        height: 12rem;
         margin-left: 1rem;
         margin-top: 4rem;
     }
