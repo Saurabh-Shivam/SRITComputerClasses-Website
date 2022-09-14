@@ -1,13 +1,5 @@
 .courses {
-    /* flex: 9; */
-    /* display: flex; */
-    /* flex-wrap: wrap; */
     margin: 20px;
-    /* "justify-content provides a space between items */
-    /* justify-content: space-around; */
-    /* justify-content: safe;
-    gap: 2rem; */
-
     /* This will help to divide 3 cards in a row with distance of 1.6rem from each other */
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -32,7 +24,6 @@
 }
 
 .c-header>span {
-    /* font-size: 1.5rem; */
     font-weight: bold;
     text-transform: uppercase;
     font-size: 2.5rem;
@@ -41,14 +32,6 @@
 
 /* for the first child, i.e. span-> Ready to start */
 .c-header>:nth-child(1) {
-    /* color: var(--orange);
-    font-size: 2.5rem;
-    font-weight: bold; */
-    /* 
-    font-size: 2.5rem;
-    text-transform: uppercase;
-    font-weight: bold; */
-
     color: transparent;
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: var(--orange);
@@ -56,28 +39,12 @@
 
 /* for the second child, i.e. span-> your journey */
 .c-header>:nth-child(2) {
-    /* color: var(--orange);
-    font-size: 2.5rem;
-    font-weight: bold; */
-    /* 
-    font-size: 2.5rem;
-    text-transform: uppercase;
-    font-weight: bold; */
-
     color: var(--black);
 
 }
 
 /* for the third child, i.e. span-> with us */
 .c-header>:nth-child(3) {
-    /* color: var(--orange);
-    font-size: 2.5rem;
-    font-weight: bold; */
-    /* 
-    font-size: 2.5rem;
-    text-transform: uppercase;
-    font-weight: bold; */
-
     color: transparent;
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: var(--orange);
@@ -117,26 +84,18 @@
 
 .course {
     margin-top: 5rem;
-    /* width: 16rem;
-    height: 18rem; */
     /* This will set the max height,width of a card according to the data inside it*/
     max-width: 120rem;
     max-height: 120rem;
-    /* padding: 2rem; */
-    /* width: 20rem;
-    height: 25rem; */
-    /* position: absolute; */
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
-    /* align-items: center; */
     text-align: center;
     background: rgba(255, 255, 255, 0.26);
     border: 7px solid var(--orangeCard);
     box-shadow: var(--boxShadow);
     border-radius: 20px;
     box-sizing: border-box;
-    /* padding: 0px 20px 2rem 20px; */
 
 }
 
@@ -155,7 +114,6 @@
     font-size: 2rem;
     margin-top: 1.5rem;
     margin-bottom: -0.8rem;
-    /* text-decoration: underline; */
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
@@ -185,9 +143,6 @@
         display: flex;
         flex-direction: column;
         margin-top: 1rem;
-        /* width: auto;
-        height: auto; */
-        /* gap: 2px; */
     }
 
 
@@ -200,7 +155,6 @@
     }
 
     .c-header>span {
-        /* font-size: 1.5rem; */
         font-weight: bold;
         text-transform: uppercase;
         font-size: 1.2rem;

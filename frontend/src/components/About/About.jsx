@@ -1,5 +1,4 @@
 import React from "react";
-// import Teacher from "../../img/teacher.jpg";
 import Owner from "../../img/owner.jpg";
 import "./About.css";
 
@@ -7,7 +6,6 @@ const About = () => {
   return (
     <div className="about">
       <div className="a-up">
-        {/* <img src={Teacher} alt="" /> */}
         <img src={Owner} alt="" />
       </div>
 

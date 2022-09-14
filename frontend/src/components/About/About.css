@@ -1,6 +1,5 @@
 .about {
     display: flex;
-    /* height: 77vh; */
     height: 50rem;
     margin-top: 3rem;
     display: grid;
@@ -8,13 +7,10 @@
 }
 
 .a-up>img {
-    /* display: flex; */
-    /* position: relative; */
     width: 20.1rem;
     height: 18rem;
     object-fit: cover;
     margin-left: 17rem;
-    /* margin-top: 5rem; */
     border-radius: 3%;
     box-shadow: var(--black);
     border: 4.8px solid var(--orange);
@@ -48,23 +44,15 @@
 
 .a-para>span:nth-child(3) {
     word-spacing: 5px;
-    /* letter-spacing: 1.5px; */
-    /* color: black; */
-    /* font-weight: bold; */
-    /* margin-top: 4rem;
-    margin-bottom: -0.3rem; */
 }
 
 /* for responsiveness  */
 @media (max-width: 840px) {
 
     .about {
-        /* display: flex; */
-        /* height: 77vh; */
         height: 75rem;
         width: max-content;
         margin-top: -8rem;
-        /* flex-direction: row; */
         display: grid;
         align-items: center;
         grid-template-rows: none;
@@ -80,7 +68,6 @@
 
     .a-para>span {
         font-size: 14px;
-        /* letter-spacing: 1px; */
         color: var(--gray);
         margin-top: 2rem;
         width: 14rem;

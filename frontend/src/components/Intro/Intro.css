@@ -62,9 +62,6 @@
     cursor: pointer;
     color: var(--orange);
     text-shadow: 0px 0px 30px var(--orange);
-    /* -moz-transition: all 0.2s ease-in; */
-    /* -o-transition: all 0.2s ease-in; */
-    /* -webkit-transition: all 0.2s ease-in; */
     transition: all 0.2s ease-in;
 }
 
@@ -102,15 +99,6 @@
     left: 5.5%;
     top: -16%;
 }
-
-/* for the third child, i.e. user2 */
-/* .i-right>:nth-child(3) {
-    width: 21rem;
-    height: 20.3rem;
-    left: 15%;
-    top: -9%;
-
-} */
 
 /* for the fourth child, i.e. glassemojy */
 .i-right>:nth-child(4) {
@@ -159,10 +147,6 @@
         margin-left: 400px;
     }
 
-    /* 50% {
-        margin-left: 100px;
-        } */
-
     to {
         margin-right: 200px;
     }
@@ -209,15 +193,7 @@
     }
 
     .floating-div:nth-of-type(1) {
-        /* display: none; */
         top: -7rem !important;
     }
 
-    /* .i-button {
-        margin-left: 3.3rem;
-    }
-
-    .i-icons {
-        margin-left: 3rem;
-    } */
 }

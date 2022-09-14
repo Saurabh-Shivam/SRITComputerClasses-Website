@@ -2,7 +2,6 @@
     display: flex;
     align-items: center;
     margin: -0.5rem -3.5rem;
-    /* padding-top: -5rem; */
     margin-top: 7rem;
     height: 12rem;
     display: grid;
@@ -22,7 +21,6 @@
 .f-left>:nth-of-type(1) {
     color: var(--black);
     font-size: 15px;
-    /* margin-top: 1rem; */
     width: 26rem;
     width: 22rem;
 }
@@ -71,7 +69,6 @@
 }
 
 #f-social:hover {
-    /* color: red; */
     color: var(--blueCard);
     text-shadow: 0px 0px 30px var(--blueCard);
 
@@ -79,40 +76,8 @@
 
 }
 
-
-
-/* .footer {
-    display: flex;
-    align-items: center;
-    margin: -0.5rem -3.5rem;
-    position: relative;
-    margin-top: 4rem;
-
-
-}
-
-.f-content {
-    position: absolute;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    width: 100%;
-    margin-top: 4rem;
-    gap: 4rem;
-    color: white;
-}
-
-.f-icons {
-    display: flex;
-    gap: 2rem;
-} */
-
 /* for responsiveness */
 @media screen and (max-width: 840px) {
-    /* .footer {
-        display: none;
-    } */
 
     .f-left {
         /* margin-left: -3rem; */
@@ -120,13 +85,8 @@
     }
 
     .f-mid {
-        /* display: flex; */
         position: relative;
-        /* align-content: space-around; */
-        /* margin-top: -1rem; */
         margin-left: -4.5rem;
-        /* margin-left: -17rem; */
-
     }
 
     .f-mid>span:nth-child(1) {
@@ -134,14 +94,10 @@
     }
 
     .f-right {
-        /* display: flex; */
         flex-direction: column;
         position: relative;
         margin-top: -0.9rem;
         margin-left: -3.5rem;
-        /* margin-left: -7rem; */
-        /* align-content: space-between; */
-
     }
 
     .f-right>span:nth-child(1) {

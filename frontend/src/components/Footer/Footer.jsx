@@ -1,18 +1,10 @@
 import React from "react";
 import "./Footer.css";
-// Importing image
-// import Wave from "../../img/wave.png";
-// import Logo from "../../img/logo.png";
 import Logo from "../../img/sritlogo.png";
-// import Insta from "@iconscout/react-unicons/icons/uil-instagram";
-// import Facebook from "@iconscout/react-unicons/icons/uil-facebook";
-// import Gitub from "@iconscout/react-unicons/icons/uil-github";
-// import Linkedin from "@iconscout/react-unicons/icons/uil-linkedin";
 
 const Footer = () => {
   return (
     <div className="footer" style={{ backgroundColor: "var(--orange" }}>
-      {/* <img src={Wave} alt="" style={{ width: "100%" }} /> */}
       <div className="f-left">
         <img
           src={Logo}
@@ -20,7 +12,6 @@ const Footer = () => {
           style={{
             width: "5rem",
             heigh: "5rem",
-            // filter: "contrast(0)",
           }}
         />
         <span>
@@ -136,34 +127,10 @@ const Footer = () => {
               <i id="f-social" className="i-social fa-brands fa-instagram"></i>
             </a>
           </div>
-          {/* <div>
-            <a
-              href="https://www.facebook.com/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <i id="f-social" className="i-social fa-brands fa-facebook"></i>
-            </a>
-          </div> */}
         </div>
       </div>
     </div>
   );
-
-  // return (
-  //   <div className="footer">
-  //     <img src={Wave} alt="" style={{ width: "100%" }} />
-  //     <div className="f-content">
-  //       <span>Zainkeepscode@gmail.com</span>
-  //       <div className="f-icons">
-  //         <Insta color="white" size={"3rem"} />
-  //         <Facebook color="white" size={"3rem"} />
-  //         <Gitub color="white" size={"3rem"} />
-  //         <Linkedin color="white" size={"3rem"} />
-  //       </div>
-  //     </div>
-  //   </div>
-  // );
 };
 
 export default Footer;

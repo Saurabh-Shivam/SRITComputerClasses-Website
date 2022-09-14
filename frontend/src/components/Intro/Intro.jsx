@@ -4,32 +4,20 @@ import "./Intro.css";
 // Importing images
 import Vector1 from "../../img/Vector1.png";
 import Vector2 from "../../img/Vector2.png";
-// import user from "../../img/user2.png";
 import user from "../../img/user3.png";
 import thumbup from "../../img/thumbup.png";
 import Crown from "../../img/crown.png";
 import glassemojy from "../../img/glassemojy.png";
 import FloatingDiv from "../FloatingDiv/FloatingDiv";
-// // for darkmode
-// import { themeContext } from "../../context/DarkMode/Context";
-// import { useContext } from "react";
 
 const Intro = () => {
-  //   //for darkmode context
-  //   const theme = useContext(themeContext);
-  //   const darkMode = theme.state.darkMode;
-
   return (
     <div className="intro">
       {/* Left Side of Intro Section */}
       <div className="i-left">
         <div className="i-name">
           {/* for darkmmode */}
-          <span
-          //   style={{ color: darkMode ? "white" : "" }}
-          >
-            Hy! I Am
-          </span>
+          <span>Hy! I Am</span>
           <span>Shubham</span>
           <span>
             The founder and director of this institute, teacher with more than

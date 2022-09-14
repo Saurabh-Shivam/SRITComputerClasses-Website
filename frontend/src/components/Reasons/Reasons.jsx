@@ -8,24 +8,13 @@ import Job from "../../img/job.png";
 import Skill from "../../img/skill.png";
 import Certificate from "../../img/certifi.png";
 import { Link } from "react-router-dom";
-// // for darkmode
-// import { themeContext } from "../../context/DarkMode/Context";
-// import { useContext } from "react";
 
 const Reasons = () => {
-  // //for darkmode context
-  // const theme = useContext(themeContext);
-  // const darkMode = theme.state.darkMode;
   return (
     <div className="reasons">
       {/* Left Side of Reason Section */}
       <div className="r-left">
-        {/* dark Mode */}
-        <span
-        // style={{ color: darkMode ? "white" : "" }}
-        >
-          some reasons
-        </span>
+        <span>some reasons</span>
         <span>Why Choose Us?</span>
 
         <div className="r-points">
@@ -58,8 +47,6 @@ const Reasons = () => {
         <Link to="contact">
           <button className="button s-button">Contact</button>
         </Link>
-        {/* Blur effect design, className="blur" styling is done in the Intro.css file */}
-        {/* <div className="blur s-blur1" style={{ background: "#ABF1FF94" }}></div> */}
       </div>
 
       {/* Right Side of Reason Section */}
@@ -75,12 +62,7 @@ const Reasons = () => {
           </div>
 
           <div className="r-secCircle">
-            <img
-              // style={{ width: "7rem", height: "7rem" }}
-              style={{ transform: "scale(0.3)" }}
-              src={Certificate}
-              alt=""
-            />
+            <img style={{ transform: "scale(0.3)" }} src={Certificate} alt="" />
           </div>
 
           <div className="r-secCircle">
@@ -92,17 +74,7 @@ const Reasons = () => {
           </div>
 
           <div className="r-secCircle">
-            <img
-              // style={{
-              //   width: "6rem",
-              //   height: "6rem",
-              //   transform: "scale(0.5)",
-              //   borderRadius: "100%",
-              // }}
-              style={{ transform: "scale(0.2)" }}
-              src={Skill}
-              alt=""
-            />
+            <img style={{ transform: "scale(0.2)" }} src={Skill} alt="" />
           </div>
 
           <div className="r-secCircle">
@@ -118,7 +90,7 @@ const Reasons = () => {
           </div>
         </div>
 
-        {/* Background Cicles */}
+        {/* Background Circles */}
         <div className="r-backCircle blueCircle"></div>
         <div className="r-backCircle yellowCircle"></div>
       </div>

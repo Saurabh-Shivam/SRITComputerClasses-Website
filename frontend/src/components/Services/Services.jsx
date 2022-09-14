@@ -7,25 +7,13 @@ import Humble from "../../img/humble.png";
 import Card from "../Card/Card";
 // Importing pdf file
 import myServices from "./myServices.pdf";
-// // for darkmode
-// import { themeContext } from "../../context/DarkMode/Context";
-// import { useContext } from "react";
 
 const Services = () => {
-  // //for darkmode context
-  // const theme = useContext(themeContext);
-  // const darkMode = theme.state.darkMode;
-
   return (
     <div className="services">
       {/* Left Side of Service Section */}
       <div className="s-left">
-        {/* for darkmode */}
-        <span
-        //  style={{ color: darkMode ? "white" : "" }}
-        >
-          My Special
-        </span>
+        <span>My Special</span>
         <span>services</span>
         <span>
           For both technical and non-technical background students we provide

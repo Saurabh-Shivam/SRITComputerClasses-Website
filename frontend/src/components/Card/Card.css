@@ -33,14 +33,7 @@
 .card>:nth-child(3) {
     color: var(--gray);
     font-size: 16px;
-    /* color: black; */
 }
-
-/* Or we can write like this that we are targeting inside the div with className="card", the second class of type span
-.card span:nth-of-type(2) {
-    color: var(--gray);
-    font-size: 16px;
-} */
 
 .c-button {
     background: #FFFFFF;

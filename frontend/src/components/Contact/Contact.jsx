@@ -2,15 +2,8 @@ import React, { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 import "./Contact.css";
 import { useNavigate } from "react-router-dom";
-// // for darkmode
-// import { themeContext } from "../../context/DarkMode/Context";
-// import { useContext } from "react";
 
 const Contact = () => {
-  // //for darkmode context
-  // const theme = useContext(themeContext);
-  // const darkMode = theme.state.darkMode;
-
   // helps in navigating from one route to another
   const navigate = useNavigate();
 
@@ -51,16 +44,10 @@ const Contact = () => {
   return (
     <div className="contact">
       <div className="c-left">
-        {/* <div className="c-head"> */}
-        <span
-        // style={{ color: darkMode ? "white" : "" }}
-        >
-          Get in touch
-        </span>
+        <span>Get in touch</span>
         <span>Contact me</span>
 
         <div className="blur c-blur1" style={{ background: "#ABF1FF94" }}></div>
-        {/* </div> */}
       </div>
 
       <div className="c-right">
@@ -94,12 +81,7 @@ const Contact = () => {
             cols="30"
             rows="10"
           ></textarea>
-          <input
-            type="submit"
-            value="Send"
-            className="button"
-            // onClick={handleclearClick}
-          />
+          <input type="submit" value="Send" className="button" />
 
           {/* if done==true send to home page */}
           <span>{done && navigate("/")}</span>

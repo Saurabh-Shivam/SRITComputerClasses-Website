@@ -13,18 +13,9 @@ const Gallery = () => {
     <div className="gallery">
       <div className="g-left">
         <div className="g-head">
-          {/* for darkmode */}
-          <span
-          //  style={{ color: darkMode ? "white" : "" }}
-          >
-            Gallery
-          </span>
+          <span>Gallery</span>
           <span>Some of our</span>
-          <span
-          // style={{ color: darkMode ? "white" : "" }}
-          >
-            Memories
-          </span>
+          <span>Memories</span>
         </div>
       </div>
 

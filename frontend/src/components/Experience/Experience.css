@@ -74,18 +74,6 @@ Use the content property to specify the content to insert. */
 }
 
 
-/* Or we can write like this that we are targeting inside the div with className="achievement", the second class of type span
-.card span:nth-of-type(2) {
-    color: var(--gray);
-    font-size: 16px;
-} */
-
-/* Second child of the card class i.e. span */
-/* .achievement>:nth-child(2) {
-    font-size: 20px;
-
-} */
-
 /*  for responsiveness */
 @media screen and (max-width: 480px) {
     .experience {
