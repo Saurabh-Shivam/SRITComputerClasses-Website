@@ -10,8 +10,8 @@ const Footer = () => {
           src={Logo}
           alt=""
           style={{
-            width: "5rem",
-            heigh: "5rem",
+            width: "3.5rem",
+            heigh: "3.5rem",
           }}
         />
         <span>
