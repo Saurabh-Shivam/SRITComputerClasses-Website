@@ -52,7 +52,11 @@ const Intro = () => {
           >
             <i className="i-social fa-brands fa-github"></i>
           </a>
-          <a href="https://www.linkedIn.com/" target="_blank" rel="noreferrer">
+          <a
+            href="https://www.linkedin.com/in/saurabh-shivam-1b50931a5/"
+            target="_blank"
+            rel="noreferrer"
+          >
             <i className="i-social fa-brands fa-linkedin"></i>
           </a>
           <a

@@ -120,7 +120,7 @@ const Footer = () => {
           </div>
           <div>
             <a
-              href="https://www.linkedin.com/"
+              href="https://www.linkedin.com/in/saurabh-shivam-1b50931a5/"
               target="_blank"
               rel="noreferrer"
             >
