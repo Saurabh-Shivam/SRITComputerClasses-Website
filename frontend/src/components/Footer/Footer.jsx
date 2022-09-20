@@ -17,7 +17,7 @@ const Footer = () => {
         <span>
           Thank you for visiting our website..!! If you want to do some enquiry
           about the courses kindly contact us through either mail, call or visit
-          our institue. We shal be glad to teach you and make your programming
+          our institue. We shall be glad to teach and make your programming
           carrier easy.
         </span>
       </div>
@@ -25,7 +25,7 @@ const Footer = () => {
         <span>Contact</span>
         <div className="f-contact">
           <div>
-            <a href="http://surl.li/cydmg" target="_blank" rel="noreferrer">
+            <a href="https://rb.gy/um47bo" target="_blank" rel="noreferrer">
               <i
                 className="fa-solid fa-location-dot"
                 style={{ color: "#454545", fontSize: "18px" }}

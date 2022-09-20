@@ -175,6 +175,10 @@
         gap: 6.5rem;
     }
 
+    .i-name>:nth-child(3) {
+        color: var(--black);
+    }
+
     .i-right {
         transform: scale(0.8);
         left: -3rem;

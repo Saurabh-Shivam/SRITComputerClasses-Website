@@ -131,7 +131,7 @@ const Register = () => {
             name="email"
             aria-describedby="emailHelp"
             className="register_user"
-            placeholder="Enter your name"
+            placeholder="Enter your email"
             required
           />
 

@@ -12,11 +12,15 @@ const About = () => {
       <div className="a-down">
         <div className="a-para">
           <span>
-            SRIT(Shubham Raj Info Tech) is an institute where we guide and teach
-            people who are interested to enter the Computer/IT field with
-            varierty of different courses with the experties of Shubham
-            Raj(Founder and Director), who has an experience of more than 12
-            years in the IT field.
+            S.R.I.T(Shubham Raj Info Tech) is a computer institute specially for
+            coding classes with many modular courses like ADCA,TALLY,WEB
+            DEVT,DATA SCIENCE.The director SHUBHAM RAJ has more than 12 years
+            experince of teaching ,currenly lecturer is Patna university, Bihar.
+            The student can learn coding from zero level to professional
+            level.The institute has many examples of such student who started
+            their course from zero and today they are at higher position in IT
+            SECTOR. Come, join and make your IT career well. The non computer
+            background student also may apply, we have better option for them.
             <br /> <br />
             At Present, we are providing coaching for Computer Science (CS) &
             Information and technology (IT), Online Services (incl. Online Test,
@@ -36,9 +40,9 @@ const About = () => {
           <span className="a-founder">
             Shubham Raj, the founder and director of this institute, teacher
             with more than 12 years of teaching experience in the Computer
-            Field. He has completed his MCA from L N Mishra Patna and during
-            that time he had worked on multiple projects under "Beltron Bihar
-            Government".
+            Field. He has completed his MCA from L N Mishra Patna, Bihar and
+            during that time he had worked on multiple projects under "Beltron
+            Bihar Government".
             <br /> <br />
             He has placed more than 100's of students to different companies
             like Google, ISRO, Amazon, Infosis, Wipro, TCS, etc. with his
