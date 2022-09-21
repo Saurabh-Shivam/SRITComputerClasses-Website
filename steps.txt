@@ -1,0 +1,84 @@
+We are using npm in this project instead of yarn
+
+Created frontend by creating components
+
+Backend process step by step :->
+
+npm install express, mongoose
+
+install node.js(if not already in your computer)
+setting up routes in express.js and running it on port 8000
+
+Register in mongoDB altas and login  then created a new project and createde a new cluster and database name and g\ot the database username along with password and the url
+username - saurabh
+password - personal123098
+url-mongodb+srv://saurabh:<password>@cluster0.yuwdmdt.mongodb.net/?retryWrites=true&w=majority
+NOTE:-> From the Network Access tab sset the IP address to access from anywhere
+
+
+npm install dotenv -> this is added to secure our important data not to be shown online like -> password, mongoDB connection URL etc
+
+created schema for Courses(courseSchema.js)
+
+created the REST api by performing CRUD Operations on courses.js file
+
+// Commented for now, may be added in future
+npm install multer -> Multer is a node.js middleware for handling multipart/form-data, which is primarily used for uploading files(in this project images to the database)
+
+Created a coursecard and courses component
+
+
+
+connection fronend with backend
+
+import axios 
+Axios, which is a popular library is mainly used to send asynchronous HTTP requests to REST endpoints. This library is very useful to perform CRUD operations. This popular library is used to communicate with the backend
+
+npm install swiper -> not used
+
+created a testimonialData.js file in which we stored all the feedbacks of students and imported it to the Testimonial.jsx file and viewd the data their with the help of useState
+
+npm install emailjs or npm install @emailjs/browser -> used in contact us component
+steps to follow:->
+create account
+config service and connect accoutn then click on create service
+click on edit template and click on create a new template
+copy the service_id(service_46q1b2a) template_id(template_psiznyr) -> get from setting in edit template menu and from Account section copy the public_key(64fHUK7XxBlw4-xZW) then paste it in the code which is copied and pasted from emailjs documentation
+
+
+npm install @iconscout/react-unicons -> for toggle / footer icons
+
+createContext and useReducer used in toggle component
+
+npm install framer-motion -> for animations in the project -> facing problem not working not even the old version
+
+made the website responsive using @media queries
+
+
+created userSchema and auth REST api
+
+Adding Security to our Password by -> npm install bcrypt
+
+Added data validation to the auth,js file -> backend and also npm install jasonwebtoken -> used to verify a user
+
+merging backend with frontend through login and signup page by using fetch api
+
+npm install cors -> to prevent getting errors while connecting frontend and backend together
+
+used the navigator conecpt "useNavigate()" ->  // helps in navigating from one route to another
+
+
+myWebsite database project
+username -> Saurabh
+password -> myWebsite123
+
+npm install cookie-parser
+
+
+displayed course through the map function
+
+
+adding actual data to the project
+
+
+remove login como and added gallery compo
